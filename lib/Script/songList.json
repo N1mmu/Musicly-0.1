@@ -1,0 +1,173 @@
+[
+    {
+        "song_id": 1,
+    "name": "Faded",
+    "src": "lib/Musics/Faded.mp3",
+    "icon": "lib/music icons/Faded.jpg",
+    "genre": "pop",
+    "artist": ["Alan Walker"],
+    "language": "english",
+    "recomendation": 1
+        },
+    {
+        "song_id": 2,
+        "name": "Alone",
+        "src": "lib/Musics/Alone.mp3",
+        "icon": "lib/music icons/Alone.png",
+        "genre": "pop",
+        "artist": ["Alan Walker"],
+        "language": "english",
+        "recomendation": 1
+        },
+        {
+            "song_id": 3,
+            "name": "On my way",
+            "src": "lib/Musics/On my way.mp3",
+            "icon": "lib/music icons/On_My_Way.png",
+            "genre": "pop",
+            "artist": ["Alan Walker"],
+            "language": "english",
+            "recomendation": 1
+        },
+            {
+                "song_id": 4,
+                "name": "The Spectre",
+                "src": "lib/Musics/The Spectre.mp3",
+                "icon": "lib/music icons/The Spectre.jpg",
+                "genre": "pop",
+                "artist": ["Alan Walker"],
+                "language": "english",
+                "recomendation": 1
+                },
+                {
+                    "song_id": 5,
+                    "name": "Attention",
+                    "src": "lib/Musics/Attention.mp3",
+                    "icon": "lib/music icons/attention.jpg",
+                    "genre": "pop",
+                    "artist": ["Charlie Puth"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 6,
+                    "name": "See you again",
+                    "src": "lib/Musics/See You Again.mp3",
+                    "icon": "lib/music icons/See You Again.png",
+                    "genre": "pop",
+                    "artist": ["Charlie Puth","Wiz Khalifa"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 7,
+                    "name": "Heroes Tonight",
+                    "src": "lib/Musics/Heroes Tonight.mp3",
+                    "icon": "lib/music icons/Heroes Tonight.jpg",
+                    "genre": "pop",
+                    "artist": ["Janji","Johnning"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 8,
+                    "name": "Close to the sun",
+                    "src": "lib/Musics/Close To The Sun.mp3",
+                    "icon": "lib/music icons/Close To The Sun.jpg",
+                    "genre": "pop",
+                    "artist": ["TheFatRat","Anjulie"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 9,
+                    "name": "Rise",
+                    "src": "lib/Musics/Rise.mp3",
+                    "icon": "lib/music icons/Rise.jpg",
+                    "genre": "pop",
+                    "artist": ["League Of Legends"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 10,
+                    "name": "On & On",
+                    "src": "lib/Musics/On & On.mp3",
+                    "icon": "lib/music icons/On & On.jpg",
+                    "genre": "pop",
+                    "artist": ["Cartoon"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 11,
+                    "name": "Hymn For The Weekend",
+                    "src": "lib/Musics/Hymn For The Weekend.mp3",
+                    "icon": "lib/music icons/Hymn For The Weekend.jpg",
+                    "genre": "pop",
+                    "artist": ["Coldplay"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 12,
+                    "name": "Cradles",
+                    "src": "lib/Musics/Cradles.mp3",
+                    "icon": "lib/music icons/Cradles.jpg",
+                    "genre": "pop",
+                    "artist": ["Suburban"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 13,
+                    "name": "Something Just Like This",
+                    "src": "lib/Musics/Something Just Like This.mp3",
+                    "icon": "lib/music icons/Something Just Like This.png",
+                    "genre": "pop",
+                    "artist": ["The Chainsmokers","Coldplay"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 14,
+                    "name": "Changes",
+                    "src": "lib/Musics/Changes.mp3",
+                    "icon": "lib/music icons/Changes.jpg",
+                    "genre": "pop",
+                    "artist": ["XXXTentacion"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 15,
+                    "name": "Way back home",
+                    "src": "lib/Musics/Way back home.mp3",
+                    "icon": "lib/music icons/Way back home.jpg",
+                    "genre": "kpop",
+                    "artist": ["Shaun"],
+                    "language": "korean",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 16,
+                    "name": "Memories",
+                    "src": "lib/Musics/Memories.mp3",
+                    "icon": "lib/music icons/Memories.jpg",
+                    "genre": "pop",
+                    "artist": ["Maroon 5"],
+                    "language": "english",
+                    "recomendation": 1
+                },
+                {
+                    "song_id": 17,
+                    "name": "Stay with me",
+                    "src": "lib/Musics/Stay with me.mp3",
+                    "icon": "lib/music icons/Stay with me.jpg",
+                    "genre": "kpop",
+                    "artist": ["Chanyeol","EXO"],
+                    "language": "korean",
+                    "recomendation": 1
+                }
+                
+]

@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<html>
+    <head>
+    <link rel="stylesheet" href="/lib/Style/music.css">
+    <link rel="icon" type="image/x-icon" href="gfx/favicon.ico">
+    <script src="/node_modules/browser-cjs/require.js"></script>
+    <title>Music Player</title>
+    </head>
+    <body>
+        <div class="screen">
+        <audio class = "song" src="" id="song" ></audio>
+        <img src="/lib/banner2.jpg" id="bgp">
+        <div class="app">
+        <div class="logo_and_banner">
+        <div class="logo">
+            <a href="/index.html">
+            <img src="lib/logo.png" id="logo">
+        </a>
+        
+        </div>
+        <!-- <div class="banner">
+            <img src="/pages/music/gfx/banner.jpg" id="banner">
+        </div> -->
+    </div>
+      <div class="mid">
+        <div class="currently_playing" onload="songSelection()">
+            <div class="title">Currently Playing</div>
+            <br>
+            <div class="currently_playing_song_queue">
+                <div class="song_in_queue" id="currently_playing_song_1">
+                <img src=""  class="currently_playing_img" id="currently_playing_img_1">
+                <p class="play" id="playButton_p1"> &#9658;</p>
+                <p class="pause" id="pauseButton_p1">&#9612;&#9612;</p>
+                <p class="song_name" id="song_name_1">Undefined</p>
+            </div>
+            </div>
+                
+            
+            <div class="currently_playing_song_queue">
+                <div class="song_in_queue" id="currently_playing_song_2">
+                <img src=""  class="currently_playing_img" id="currently_playing_img_2">
+                <p class="play" id="playButton_p1"> &#9658;</p>
+                <p class="pause" id="pauseButton_p1">&#9612;&#9612;</p>
+                <p class="song_name" id="song_name_2">Undefined</p>
+            </div>
+        </div>
+
+            <div class="currently_playing_song_queue">
+                <div class="song_in_queue" id="currently_playing_song_3">
+                <img src=""  class="currently_playing_img" id="currently_playing_img_3">
+                <p class="play" id="playButton_p1"> &#9658;</p>
+                <p class="pause" id="pauseButton_p1">&#9612;&#9612;</p>
+                <p class="song_name" id="song_name_3">Undefined</p>
+            </div>
+        </div>
+
+            <div class="currently_playing_song_queue">
+                <div class="song_in_queue" id="currently_playing_song_4">
+                <img src=""  class="currently_playing_img" id="currently_playing_img_4">
+                <p class="play" id="playButton_p1"> &#9658;</p>
+                <p class="pause" id="pauseButton_p1">&#9612;&#9612;</p>
+                <p class="song_name" id="song_name_4">Undefined</p>
+            </div>
+        </div>
+
+            <div class="currently_playing_song_queue">
+                <div class="song_in_queue" id="currently_playing_song_5">
+                <img src=""  class="currently_playing_img" id="currently_playing_img_5">
+                <p class="play" id="playButton_p1"> &#9658;</p>
+                <p class="pause" id="pauseButton_p1">&#9612;&#9612;</p>
+                <p class="song_name" id="song_name_5">Undefined</p>
+            </div>
+        </div>
+
+            <div class="currently_playing_song_queue">
+                <div class="song_in_queue" id="currently_playing_song_5">
+                <img src=""  class="currently_playing_img" id="currently_playing_img_5">
+                <p class="play" id="playButton_p1"> &#9658;</p>
+                <p class="pause" id="pauseButton_p1">&#9612;&#9612;</p>
+                <p class="song_name" id="song_name_6">Undefined</p>
+            </div>
+        </div>
+            <div class="currently_playing_song_queue">
+                <div class="song_in_queue" id="currently_playing_song_5">
+                <img src=""  class="currently_playing_img" id="currently_playing_img_5">
+                <p class="play" id="playButton_p1"> &#9658;</p>
+                <p class="pause" id="pauseButton_p1">&#9612;&#9612;</p>
+                <p class="song_name" id="song_name_7">Undefined</p>
+            </div>
+        </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+        <div class="feed">
+
+        <div class="feed_type">
+            <p class="title" id="Suggestion_title">Suggestion</p>
+    </div>
+    </div>
+    <div class="feed_song_container" id="Suggestion">
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    
+
+    </div>
+    <div class="feed_type">
+        <p class="title" id="KPOP_title">KPOP</p>
+</div>
+
+    <div class="feed_song_container" id="KPOP">
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    
+        <div class="feed_song">
+            <img src="" class="feed_song_image">
+            <p class="feed_play" id="playButton_p1"> &#9658;</p>
+            <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+            <p class="feed_song_name">error:Not loaded</p>
+        </div>
+    </div>
+    <div class="controller">
+        </div>
+    </div>
+    
+    <!-- <script type="module" src="/script/musicImport.js"></script> -->
+    <!-- <script src="/script/music.js"></script> -->
+    <script src="/lib/Script/bundle.js"></script>
+    </body>
+</html>

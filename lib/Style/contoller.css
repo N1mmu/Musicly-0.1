@@ -1,0 +1,8 @@
+div.controller{
+    position: fixed;
+    min-width: 99.2%;
+    height: 13%;
+    background-color:  rgba(83, 153, 132, 0.79) ;
+    bottom: 1%;
+    border-radius: 5px;
+}

@@ -1,0 +1,90 @@
+div.currently_playing{
+    position: fixed;
+    min-width: 18.5%;
+    height: 62.5%;
+    width: 10%;
+    padding: 2%;
+    top: 10.3%;
+    margin-top: 2% ;
+    margin-left: 0.5%;
+    border-radius: 7px;
+    background-color: rgba(129, 124, 199, 0.8);
+}
+div.title{
+    font-family: sans-serif;
+    font-size: 1.01vw;
+    max-width:50%;
+    max-height: 10%;
+    color: khaki;
+    /* background-color: #850000; */
+}
+
+
+img.currently_playing_img{
+    position: relative;
+    padding-top: 1%;
+    padding-left: 2% ;
+    width: 15%;
+    height: 15%;
+    
+}
+
+.song_in_queue{
+    position: relative;
+    /* display: inline-flex; */
+    display: none;
+    padding-bottom: 20px;
+}
+
+.song_in_queue p.song_name{
+    font-family: sans-serif;
+    position: absolute;
+    top: 18%;
+    left: 17%;
+    padding-left: 4%;
+    font-weight: normal;
+}
+
+.song_in_queue p.play{
+    position: absolute;
+    display: block;
+    left: 27.5px;
+    top: -22px;
+    font-size: 30px;
+    color: #f7d4d4;
+    opacity: 0.9;
+}
+
+.song_in_queue p.pause{
+    position: absolute;
+    display: none;
+    left: 25px;
+    top: -3px;
+    font-size: 18px;
+    color: #f7d4d4;
+    opacity: 0.9;
+}
+
+.song_in_queue:hover{
+    cursor: pointer;
+}
+
+.song_in_queue:hover .currently_playing_img{
+    width: 60px;
+    height: 60px;
+} 
+.song_in_queue:hover p.play{
+    font-size: 36px;
+    top: -26px;
+    left: 33px
+}
+
+.song_in_queue:hover p.pause{
+    font-size: 21.65px;
+    top: -5px;
+    left: 30px
+}
+
+.song_in_queue:hover p.song_name{
+    padding-left: 83px;
+}

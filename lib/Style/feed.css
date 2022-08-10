@@ -1,0 +1,117 @@
+.feed{
+    position: fixed;
+    height: 70.5%;
+    width: 75.2%;
+    bottom: 15.2%;
+    left: 24.5%;
+    border-radius: 5px;
+    background-color: rgba(47, 55, 168, 0.8);
+}
+
+.feed p.title{
+    font-size: 1vw;
+    padding-left: 2%;
+    padding-top: 1%;
+    color: khaki;
+}
+
+
+.feed_song_container{
+    position: absolute;
+    display: inline-flex;
+    width: 70%;
+    height: 10%;
+    
+    /* background-color: aqua; */
+}
+
+#Suggestion{
+    top: 20%;
+    left: 26%;
+    color: white;
+}
+
+#KPOP{
+    top: 34%;
+    display: none;
+    left: 26.4%;
+    position: absolute;;
+}
+
+#KPOP_title{
+    display: none;
+    position: absolute;
+    top: 30%;
+    left: 26.2%;
+}
+
+.feed_song{
+    position: relative;
+    padding-right: 3%;
+    width: 5%;
+    height: 90%;
+    /* background-color: rgb(0, 0, 0); */
+    top: 10px;
+    left: 10px;
+}
+
+.feed_song:hover{
+    cursor: pointer;
+}
+
+.feed_song:hover .feed_song_image{
+    width: 115%;
+}
+
+.feed_song:hover .feed_play{
+    top: -22.5%;
+    left: 22%;
+    font-size: 2vw;
+    
+}
+
+.feed_song:hover .feed_pause{
+    top: 6%;
+    left: 26%;
+    font-size: 1.1vw;
+    
+}
+
+.feed_song_image{
+    width: 100%;
+    user-select: none;
+}
+
+.feed_play{
+    position: absolute;
+    display: block;
+    left: 20.5%;
+    top: -13%;
+    font-size: 1.5vw;
+    color: #f7d4d4;
+    opacity: 0.9;
+    user-select: none;
+}
+
+.feed_pause{
+    position: absolute;
+    display: none;
+    left: 25%;
+    top: 10%;
+    font-size: 0.8vw;
+    color: #f7d4d4;
+    opacity: 0.9;
+    user-select: none;
+}
+
+.feed_song_name{
+    display: block;
+    font-size: 0.63vw;
+    font-family: sans-serif;
+    margin-top: 0;
+    text-align: center;
+    overflow: hidden;
+    white-space: pre;
+    user-select: none;
+    text-overflow: ellipsis;
+}
