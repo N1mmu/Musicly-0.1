@@ -6,17 +6,21 @@
 
 #bgp{
     position: fixed;
-    min-width: 100%;
-    min-height: 100%;
     bottom: 0;
     right: 0;
     justify-content: center;
     overflow: hidden;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: blur(4px);
   }
+
 
 body{
     background-color: black;
-}
+  }
+
 
 .screen{
     width: 100%;
@@ -42,21 +46,24 @@ body{
 
 .logo{
     position: absolute;
-    top: -4%;
+    /* top: -4%; */
     height: 10%;
     width: 10%;
-    padding: 0.3%;
+    bottom: 81.5%;
+    padding-bottom: 5%;
     margin: 0.3%;
-    /* background-color: #535353; */
+    /* background-color: #ffffff; */
     border-radius: 2%;
 }
 .logo a{
     width: 100%;
     margin-right: 2%;
+    /* background-color: white;; */
 }
 
 #logo{
     width: 100%;
+    /* background-color: white; */
 }
 
 div.banner{

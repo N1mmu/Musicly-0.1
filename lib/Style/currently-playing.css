@@ -8,7 +8,7 @@ div.currently_playing{
     margin-top: 2% ;
     margin-left: 0.5%;
     border-radius: 7px;
-    background-color: rgba(129, 124, 199, 0.8);
+    background-color: rgba(58, 47, 47, 0.5);
 }
 div.title{
     font-family: sans-serif;

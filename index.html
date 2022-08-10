@@ -5,11 +5,12 @@
     <link rel="stylesheet" href="/lib/Style/music.css">
     <link rel="icon" type="image/x-icon" href="gfx/favicon.ico">
     <script src="/node_modules/browser-cjs/require.js"></script>
-    <title>Music Player</title>
+    <title>Musicly</title>
     </head>
     <body>
         <div class="screen">
-        <audio class = "song" src="" id="song" ></audio>
+            
+        <audio class = "song" src="" id="song"  onended="endedSong()"></audio>
         <img src="/lib/banner2.jpg" id="bgp">
         <div class="app">
         <div class="logo_and_banner">
@@ -24,7 +25,7 @@
         </div> -->
     </div>
       <div class="mid">
-        <div class="currently_playing" onload="songSelection()">
+        <div class="currently_playing">
             <div class="title">Currently Playing</div>
             <br>
             <div class="currently_playing_song_queue">
@@ -103,83 +104,83 @@
     </div>
     </div>
     <div class="feed_song_container" id="Suggestion">
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(0)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
         <p class="feed_song_name">error:Not loaded</p>
     </div>
-    <div class="feed_song">
-        <img src="" class="feed_song_image">
-        <p class="feed_play" id="playButton_p1"> &#9658;</p>
-        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
-        <p class="feed_song_name">error:Not loaded</p>
-    </div>
-
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(1)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
         <p class="feed_song_name">error:Not loaded</p>
     </div>
 
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(2)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
         <p class="feed_song_name">error:Not loaded</p>
     </div>
 
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(3)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
         <p class="feed_song_name">error:Not loaded</p>
     </div>
 
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(4)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
         <p class="feed_song_name">error:Not loaded</p>
     </div>
 
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(5)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
         <p class="feed_song_name">error:Not loaded</p>
     </div>
 
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(6)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
         <p class="feed_song_name">error:Not loaded</p>
     </div>
 
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(7)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
         <p class="feed_song_name">error:Not loaded</p>
     </div>
 
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(8)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
         <p class="feed_song_name">error:Not loaded</p>
     </div>
 
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(9)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
         <p class="feed_song_name">error:Not loaded</p>
     </div>
 
-    <div class="feed_song">
+    <div class="feed_song" onclick="window.click(10)">
+        <img src="" class="feed_song_image">
+        <p class="feed_play" id="playButton_p1"> &#9658;</p>
+        <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
+        <p class="feed_song_name">error:Not loaded</p>
+    </div>
+
+    <div class="feed_song" onclick="window.click(12)">
         <img src="" class="feed_song_image">
         <p class="feed_play" id="playButton_p1"> &#9658;</p>
         <p class="feed_pause" id="pauseButton_p1">&#9612;&#9612;</p>
